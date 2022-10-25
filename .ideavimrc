@@ -1,0 +1,18 @@
+"光标距窗口上下保留 5 行
+set scrolloff=5
+
+
+"敲键的同时搜索文本
+set incsearch
+"显示行号
+set nu
+"显示相对行号
+set rnu
+
+ 设置 jk 映射为 esc键
+inoremap jj <ESC>
+" 插入模式的光标移动
+inoremap <c-h> <left>
+inoremap <c-j> <down>
+inoremap <c-k> <up>
+inoremap <c-l> <right>
