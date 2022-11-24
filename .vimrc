@@ -29,4 +29,5 @@ imap <c-j> <Down>
 imap <c-k> <Up>
 imap <c-l> <Right>
 
-colorscheme darkblue "设置主体颜色
+"在ubuntu20.04.5 LTS中，修改/etc/vimrc文件未成功
+“且在家目录新建.vimrc文件，将配置写入保存，括号自动补全，jj,编辑状态移动未能实现，以后再解决。
