@@ -1,6 +1,11 @@
+"配置文件位置：/etc/vimrc
+“亦可在家目录新建.vimrc文件将以下内容写入保存，程序自动加载。
+"在ubuntu20.0.4中，方向和退格键不启作用，需要修改/usr/share/vim/vimrc.tiny中的set compatible修改为set nocompatible
+"并增加set backspace=2
+
 "显示行号
 set number
-""自动缩进
+"自动缩进
 set autoindent
 "突出显示当前行
 set cursorline
@@ -29,5 +34,4 @@ imap <c-j> <Down>
 imap <c-k> <Up>
 imap <c-l> <Right>
 
-"在ubuntu20.04.5 LTS中，修改/etc/vimrc文件未成功
-“且在家目录新建.vimrc文件，将配置写入保存，括号自动补全，jj,编辑状态移动未能实现，以后再解决。
+
