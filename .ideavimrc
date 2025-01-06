@@ -1,3 +1,4 @@
+"ubuntu全局配置文件/etc/vim/vimrc
 "突出显示当前行
 set cursorline
 "在状态栏显示正在输入的命令
@@ -10,6 +11,14 @@ set incsearch
 set nu
 "显示相对行号
 set rnu
+
+"对称符号自动补全
+inoremap ' ''<ESC>i
+inoremap " ""<ESC>i
+inoremap ( ()<ESC>i
+inoremap [ []<ESC>i
+inoremap < <><ESC>i
+inoremap { {<CR>}<ESC>O
 
  设置 jk 映射为 esc键
 inoremap jj <ESC>
